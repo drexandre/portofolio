@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    background-color: #f6f1d1;
+}
+
+/* navbar */
+.navbar{
+    background-color: #cfd7c7;
+    position: sticky;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+
+.navbar_title{
+    margin: 0px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight: 570;
+}
+
+.navbar_item {
+    display: inline-block;
+}
+
+.navbar_link{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.navbar_link:hover{
+    color: rgb(3, 1, 63);
+    text-decoration: line-through;
+}
+
+.navbar_link:link{
+    color: rgb(15, 10, 158);
+    font-weight: 500;
+}
+
+.navbar_link:visited{
+    color: rgb(9, 5, 142);
+    font-weight: 500;
+}
+
+/* content */
+.box{
+    content: "";
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* content */
+.text{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.desc{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1px;
+}
+
+.img{
+    position: relative;
+    float: left;
+    width: 32%;
+    padding: 5px;
+    border: 1px;
+    border-color: black;
+    margin-top: 3%;
+}
+
+.box{
+    content: "";
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20%;
+}
+
+.icon{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.sosmed{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+footer{
+    background-color: #d8e2cd;
+    margin-top: 80px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}

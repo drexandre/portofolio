@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    background-color: #f6f1d1;
+}
+
+/* navbar */
+.navbar{
+    background-color: #cfd7c7;
+    position: sticky;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+
+.navbar_title{
+    margin: 0px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight: 570;
+}
+
+.navbar_item {
+    display: inline-block;
+}
+
+.navbar_link{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.navbar_link:hover{
+    color: rgb(3, 1, 63);
+    text-decoration: line-through;
+}
+
+.navbar_link:link{
+    color: rgb(15, 10, 158);
+    font-weight: 500;
+}
+
+.navbar_link:visited{
+    color: rgb(9, 5, 142);
+    font-weight: 500;
+}
+
+/* content */
+.container{
+    border-radius: 10px;
+    padding: 20px;
+    background: #e5f7d3;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-content{
+    position: inherit;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.checkbox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.icon{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.box{
+    content: "";
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sosmed{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+footer{
+    background-color: #d8e2cd;
+    margin-top: 80px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.error_msg{
+    display: flex;
+    background-color: aliceblue;
+    opacity: 80%;
+    align-items: flex-start;
+    justify-content: left;
+    color: red;
+    font-weight: bold;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
